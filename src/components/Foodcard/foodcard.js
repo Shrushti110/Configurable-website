@@ -3,7 +3,7 @@ import './foodcard.css'
 import eatIcon from "./eat.png"
 import drinkIcon from "./drink.png"
 
-function foodcard({imgUrl, title , description, isEatType}) {
+function foodcard({imgUrl, title , description, isEatType, price}) {
 
   return (
     <div className='foodcard'>
@@ -17,6 +17,18 @@ function foodcard({imgUrl, title , description, isEatType}) {
       <img src={isEatType? eatIcon : drinkIcon} 
       className='foodcard-icon' 
       alt='salad'/>
+
+      {
+        price?
+        <p className='foodcard-price'>
+        ₹ {price}
+      </p>
+      :"Not Available"
+      }
+
+      <button className='foodcard-btn'>
+        Order Now
+      </button>
     </div>
   )
 }

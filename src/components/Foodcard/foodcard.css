@@ -37,3 +37,22 @@
     object-fit: cover;
     border-radius: 10px;
 }
+.foodcard-price{
+    font-size: 17px;
+    color: rgb(36, 108, 67);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.foodcard-btn{
+    background-color: rosybrown;
+    padding: 7px 20px;
+    border-radius: 30px;
+    border: none;
+    display: block;
+    margin: 10px auto;
+    cursor: pointer;
+    font-size: 16px;
+}
+.foodcard-btn:hover{
+    color: white;
+    background-color:rgb(134, 105, 105);
+}

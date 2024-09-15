@@ -2,6 +2,7 @@
     width: 300px;
     border: 1px solid papayawhip;
     border-radius: 5px;
+    background-color: rgb(232, 228, 189);
     margin: 10px;
     position: relative;
     padding: 10px 20px;
@@ -9,7 +10,7 @@
     cursor: pointer;
 }
 .foodcard:hover{
-    box-shadow:0 0 10px rgba(0,0,0,0.3);
+    box-shadow:0 0 10px rgba(33, 32, 32, 0.3);
     transition: 0.3s;
    /* transform:rotate(-1deg);*/
 }
@@ -19,6 +20,7 @@
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
+    margin-top: 10px;
 }
 .foodcard-description{
     color: rgb(157, 80, 24);
@@ -39,6 +41,7 @@
 }
 .foodcard-price{
     font-size: 17px;
+    text-align: center;
     color: rgb(36, 108, 67);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

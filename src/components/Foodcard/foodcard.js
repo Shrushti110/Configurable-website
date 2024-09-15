@@ -12,7 +12,7 @@ function foodcard({imgUrl, title , description, isEatType}) {
       alt='food'/>
 
       <h1 className='foodcard-title'>{title}</h1>
-      <p>{description}</p>
+      <p className='foodcard-description'>{description}</p>
 
       <img src={isEatType? eatIcon : drinkIcon} 
       className='foodcard-icon' 

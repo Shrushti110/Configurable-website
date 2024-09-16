@@ -2,7 +2,6 @@ import React from 'react'
 import './foodcard.css'
 import eatIcon from "./eat.png"
 import drinkIcon from "./drink.png"
-import { THEME } from '../../config/data'
 
 function foodcard({imgUrl, title , description, isEatType, price}) {
 
